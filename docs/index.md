@@ -1,23 +1,23 @@
 [&#171; SDKBOX Home](http://sdkbox.com)
 
-<h1>SDKBOX Documentation</h1>
+<h1>SDKBOX 문서</h1>
 
-##Overview
-SDKBOX makes it super EASY and FREE mobile game developers to integrate 3rd party SDKs. We do all the hard, tedious and tricky work so that developers won’t have to. All services are tested and certified. Check out more information [on SDKBOX's homepage.](http://sdkbox.com)
+## 개요
+SDKBOX는 초보자 및 무료 모바일 게임 개발자가 타사 SDK를 통합 할 수 있게합니다. 우리는 개발자가 게임 개발에 집중할 수 있도록 모든 어렵고 지루하고 까다로운 작업들을 수행합니다. 모든 서비스는 테스트되었고 인증되었습니다. 추가 정보는 [SDKBOX 홈페이지](http://sdkbox.com) 에서 확인해보세요.
 
 
-##Architecture
-SDKBOX supports free, easy-to-use, and certified plugins. They integrate the 3rd party libraries directly in the app, and talk to the services' backend without any proxy/middle layer. This design provides the best performance, stability, and compatibility.
+## 구조
+SDKBOX는 무료로 사용하기 쉽고 인증된 플러그인을 지원합니다. SDKBOX는 제 3자 라이브러리를 앱에 직접 통합하고 프록시/중간 계층없이 서비스의 백엔드와 커뮤니케이션 합니다. 이 디자인은 최상의 성능, 안정성 및 호환성을 제공합니다.
 
 ![chart](./imgs/sdkbox_sequence.jpg)
 
-##Liveops
-SDKBOX LiveOps enables developers to receive the benefits of cloud based functionalities, such as live-updating [Remote Configuration](./liveops/remote-config), server-side [IAP receipts verification](./liveops/receipt-verification), and on-the-fly [store catalog management](./liveops/catalog-management). It helps to boost the mobile applications with extended features.
+## Liveops
+SDKBOX LiveOps를 사용하면 개발자는 실시간 업데이트 [원격 구성](./liveops/remote-config), 서버 측 [IAP 확인](./liveops/receipt-verification) 및 온더 플라이 (on-the-fly) [저장소 카탈로그 관리](./liveops/catalog-management)와 같은 클라우드 기반 기능의 이점을 누릴 수 있습니다. 이러한 확장된 기능으로 모바일 애플리케이션을 향상시키는 데 도움이됩니다.
 
-Learn more about [SDKBOX LiveOps](./liveops), and enjoy it [on SDKBOX's homepage.](http://sdkbox.com)
+[SDKBOX LiveOps](./liveops) 에 대해 자세히 알아보고, [SDKBOX 홈페이지](http://sdkbox.com) 에서 즐겨보세요.
 
-##Platforms
-SDKBOX currently support the most popular mobile game engines. Click to learn more:
+## 플랫폼
+SDKBOX는 현재 가장 인기있는 모바일 게임 엔진을 지원합니다. 자세한 내용을 보려면 클릭하십시오.:
 
 <div class="platforms">
 <a href="./cocos"><img src="./imgs/cocos.png"></a>
@@ -26,8 +26,8 @@ SDKBOX currently support the most popular mobile game engines. Click to learn mo
 </div>
 
 
-##Services
-SDKBOX includes lots of useful services which are crucial for your games:
+## 서비스
+SDKBOX에는 게임에 중요한 다양하고 유용한 서비스가 포함되어 있습니다.:
 
 <style type="text/css">
 blockquote a img {
@@ -61,4 +61,3 @@ blockquote a img {
 > <a href="http://www.sdkbox.com/plugins/valuepotion"><img src="./imgs/valuepotion.jpg" /></a>
 > <a href="http://www.sdkbox.com/plugins/vungle"><img src="./imgs/vungle.jpg" /></a>
 > <a href="http://www.sdkbox.com/plugins/youtube"><img src="./imgs/youtube.png" /></a>
-
