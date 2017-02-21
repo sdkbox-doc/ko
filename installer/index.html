@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>CLI Installer - SDKBOX</title>
+        
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/base.css?2" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../css/custom.css" rel="stylesheet">
+        
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="http://sdkbox.com"><img src="http://www.cocos2d-x.org/s/sdkbox/SDKBOX_logo.png">Docs</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+
+
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Overview</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cocos2d-x <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../cocos/">Overview</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">CLI Installer</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../qa/integration-admob-to-creator/">For Cocos Creator</a>
+</li>
+
+                        
+                            
+  
+  <li class="dropdown-submenu">
+    <a tabindex="-1" class="non-link">Plugins</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../plugins/achievement/">Achievements</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/adcolony/">AdColony</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/admob/">AdMob</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/agecheq/">AgeCheq</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/appnext/">Appnext</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/appodeal/">Appodeal</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/amazon/">Amazon</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/apteligent/">Apteligent</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/bee7/">Bee7</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/chartboost/">Chartboost</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/facebook/">Facebook</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/flurryanalytics/">Flurry Analytics</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/fyber/">Fyber</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/googleanalytics/">Google Analytics</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/googleplay/">Google Play Games</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/iap/">In-App Purchase</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/inmobi/">InMobi</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/kochava/">Kochava</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/leadbolt/">LeadBolt</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/leaderboard/">Leaderboard</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/onesignal/">OneSignal</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/playphone/">Playphone</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/phunwareads/">Phunware Ads</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/review/">Ratings & Reviews</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/sdkboxads/">SDKBOX Ads</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/sdkboxplay/">SDKBOX Play</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/share/">Social Sharing</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/tune/">Tune</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/valuepotion/">Valuepotion</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/vungle/">Vungle</a>
+</li>
+
+        
+            
+  
+
+        
+            
+<li >
+    <a href="../plugins/youtube/">Youtube</a>
+</li>
+
+        
+            
+  
+
+        
+    </ul>
+  </li>
+  
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Unity <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../unity/allinone/">SDKBOX AllInOne</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unity/iap/">In-App Purchase</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unity/review/">Ratings & Reviews</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unity/socialshare/">SocialShare</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unity/googleanalytics/">Google Analytics</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unity/sdkboxplay/">SDKBOX Play</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Unreal <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../unreal/iap/">In-App Purchase</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../unreal/chartboost/">Chartboost</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LiveOps <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../liveops/">Setup</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../liveops/remote-config/">Remote Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../liveops/receipt-verification/">Server-side IAP receipt verification</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../liveops/catalog-management/">On-the-fly catalog management</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../qa/integration-admob-to-creator/">Admob in Creator</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../qa/integration-fyber-to-cocos/">Fyber with Cocos2d-x</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../qa/fb-share-on-cocos/">Facebook with Cocos2d-x</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../qa/android_64k/">Fix Android 64K methods limit</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../qa/integration-iap-on-unity/">IAP with Unity</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../release-note/">About</a>
+                    </li>
+                
+                
+
+                <li style="margin-left:30px">
+                    <a href="http://sdkbox-doc.github.io/zh/">中文</a>
+                </li>
+                
+                </ul>
+            
+
+
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#get-the-installer">Get the Installer</a></li>
+	
+    
+        <li class="main "><a href="#install-a-plugin">Install a plugin</a></li>
+	
+    
+        <li class="main "><a href="#what-next">What Next?</a></li>
+	
+    
+        <li class="main "><a href="#other-installer-options">Other Installer options.</a></li>
+	
+	<ul class="sub-sidenav">
+        
+            <li><a href="#commands">Commands:</a></li>
+        
+            <li><a href="#switches">Switches</a></li>
+        
+	</ul>
+	
+    
+        <li class="main "><a href="#staying-up-to-date">Staying Up-to-date</a></li>
+	
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1>SDKBOX CLI Installer</h1>
+
+<h4>Automatically integrate third-party SDKs</h4>
+
+<h3 id="get-the-installer">Get the Installer</h3>
+<ul>
+<li>Make sure your system have <a href="https://www.python.org">python</a></li>
+<li>Dowload from <a href="http://download.sdkbox.com/installer/v1/sdkbox_installer.zip">this link</a></li>
+<li>Or, paste the script below into a terminal prompt. It will explain what it does and setup everything for you:</li>
+</ul>
+<pre><code>python -c &quot;import urllib; s = urllib.urlopen('https://raw.githubusercontent.com/sdkbox-doc/en/master/install/install.py').read(); exec s&quot;
+</code></pre>
+
+<h3 id="install-a-plugin">Install a plugin</h3>
+<ul>
+<li>From a command-line, <code>cd</code> to your applications root directory. Example:</li>
+</ul>
+<pre><code class="sh">cd MyGame
+</code></pre>
+
+<ul>
+<li>Now, you can install your plugin using the SDKBOX installer. Example:</li>
+</ul>
+<pre><code class="sh">sdkbox import facebook
+</code></pre>
+
+<h3 id="what-next">What Next?</h3>
+<p>The SDKBOX installer takes care of most of what you need. However, there are still a few manual steps that you must complete. After the installer runs it outputs a list of the remaining steps that you need to perform, referring to the plugin bundle PDF. Example output from running the above command:</p>
+<pre><code class="sh">$ sdkbox import facebook
+ _______ ______  _     _ ______   _____  _     _
+ |______ |     \ |____/  |_____] |     |  \___/
+ ______| |_____/ |    \_ |_____] |_____| _/   \_
+Copyright (c) 2015 Chukong Technologies Inc. v0.5.7.1
+
+
+  *****************************
+  ******** Manual Step ********
+  *****************************
+
+1. Edit &quot;project.properties&quot;
+   Set &quot;target=android-15&quot;
+
+Please reference the online documentation to finish the integration:
+http://sdkbox-doc.github.io/en/plugins/facebook/v3-cpp/
+Installation Successful :)
+</code></pre>
+
+<h3 id="other-installer-options">Other Installer options.</h3>
+<h4 id="commands">Commands:</h4>
+<p>The SDKBOX Installer has several commands that you can use. You can always see these by running <code>sdkbox</code> by itself or using the <code>-h</code> help switch:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">list</td>
+<td align="left">list available and cached packages installed on your machine. The package repository is located in your home directory.</td>
+</tr>
+<tr>
+<td align="left">import [name]</td>
+<td align="left">imports the package 'name' into your project. For a list of names, see the list command. You can also specify local archived packages or a directory by specifying the -b option (see above).</td>
+</tr>
+<tr>
+<td align="left">update</td>
+<td align="left">re-imports all imported packages to update them to the latest version. If you have imported packages prior to SDKBOX v0.5.6.19 then you must manually import your packages again to add them to the package manifest.</td>
+</tr>
+<tr>
+<td align="left">info</td>
+<td align="left">displays the packages that have been imported into your project. If you have packages imported that are not in the package manifest, SDKBOX will alert you as to which packages it thinks are imported.</td>
+</tr>
+<tr>
+<td align="left">restore</td>
+<td align="left">restores your project to the latest backup that can be found. If you have made changes to your project files since importing, this will overwrite your changes, so use carefully.</td>
+</tr>
+<tr>
+<td align="left">clean [N]</td>
+<td align="left">removes all packages older than N days.</td>
+</tr>
+<tr>
+<td align="left">symbols</td>
+<td align="left">displays the symbols that are used to drive the import process. These symbols are very useful for debugging, so if you have issues, and post on the forums, please include the symbols if possible.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="switches">Switches</h4>
+<p>The SDKBOX Installer has several switches that you can use. You can always see these by running <code>sdkbox</code> by itself or using the <code>-h</code> help switch:</p>
+<table>
+<thead>
+<tr>
+<th align="left">switch</th>
+<th align="left">alternate switch</th>
+<th align="left">what it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">-h</td>
+<td align="left">--help</td>
+<td align="left">show this help message and exit</td>
+</tr>
+<tr>
+<td align="left">-v</td>
+<td align="left">--verbose</td>
+<td align="left">specify verbosity level of the log</td>
+</tr>
+<tr>
+<td align="left">-p PROJECT</td>
+<td align="left">--project PROJECT</td>
+<td align="left">path to project root (defaults to .)</td>
+</tr>
+<tr>
+<td align="left">-b PLUGIN</td>
+<td align="left">--plugin PLUGIN</td>
+<td align="left">specify path to plugin (defaults to .)</td>
+</tr>
+<tr>
+<td align="left">-D SYMBOL</td>
+<td align="left">--symbol SYMBOL</td>
+<td align="left">define a symbol for the package script</td>
+</tr>
+<tr>
+<td align="left">-q</td>
+<td align="left">--nohelp</td>
+<td align="left">don't open online documentation after installation.</td>
+</tr>
+<tr>
+<td align="left">-d [DAYS]</td>
+<td align="left">--days [DAYS]</td>
+<td align="left">specify number of days of logs and packages to keep</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--china</td>
+<td align="left">use China based server instead of US</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--dryrun</td>
+<td align="left">test install before performing.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--forcedownload</td>
+<td align="left">force download of package even if it is already downloaded.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--noupdate</td>
+<td align="left">ignore available updates.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--alwaysupdate</td>
+<td align="left">always update to the latest version</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--jsonapi</td>
+<td align="left">treat commands as API calls and return JSON formatted output</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--patcherrors</td>
+<td align="left">patch failures are counted as errors instead of warnings.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">--nopatching</td>
+<td align="left">skip all patching commands when executing package script.</td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<pre><code class="sh">Add 'In App Purchase' plugin to your game
+$ sdkbox import -b iap -p /path/to/your/cocos2dx/game/
+</code></pre>
+
+<pre><code class="sh">#The -b option may be omitted and -p too if you are in your project directory
+$ sdkbox import iap
+</code></pre>
+
+<pre><code class="sh">#If you want to install a earlier version of the plugin
+$ sdkbox import -b /path/to/your/package
+</code></pre>
+
+<pre><code class="sh">#List all available packages on the server
+$ sdkbox list
+</code></pre>
+
+<pre><code class="sh">#Show all package imported into your project
+$ sdkbox info
+</code></pre>
+
+<pre><code class="sh">#clean logs and packages older than 5 days
+$ sdkbox clean 5
+</code></pre>
+
+<pre><code class="sh">#use playphone as your store for android
+$ sdkbox set store playphone
+</code></pre>
+
+<h3 id="staying-up-to-date">Staying Up-to-date</h3>
+<p>The SDKBOX installer automatically checks for updates to itself. It will ask for your permission before updating. This will allow you to stay current and also automatically pull updates to your plugin bundles when they become available.</p>
+<pre><code class="sh">$ sdkbox
+ _______ ______  _     _ ______   _____  _     _
+ |______ |     \ |____/  |_____] |     |  \___/
+ ______| |_____/ |    \_ |_____] |_____| _/   \_
+Copyright (c) 2015 Chukong Technologies Inc. v0.5.6.24
+
+A newer version of SDKBOX is available, would you like to update to v0.5.7.1?
+Please type Yes, No or Quit Yes
+updated SDKBOX v0.5.6.18 to v0.5.7.1 at sdkbox
+</code></pre></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script src="../js/base.js"></script>
+        
+
+ 
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-70044300-2', 'auto');
+            ga('send', 'pageview');
+        </script>
+        
+    </body>
+</html>
